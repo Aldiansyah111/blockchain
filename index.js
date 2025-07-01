@@ -23,6 +23,8 @@ myChain.createTransaction({ from: 'Alice', to: 'Bob', amount: 100 });
 myChain.createTransaction({ from: 'miner1', to: 'Bob', amount: 20 });
 myChain.createTransaction({ from: 'miner2', to: 'Bob', amount: 20 });
 myChain.createTransaction({ from: 'miner2', to: 'Boy', amount: 50 });
+myChain.createTransaction({ from: 'miner2', to: 'Boy', amount: 50 });
+myChain.createTransaction({ from: 'miner2', to: 'Boy', amount: 50 });
 
 // Mining oleh miner1
 console.log('\n⛏ Mining block...');
